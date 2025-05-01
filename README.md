@@ -42,8 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_06c390da(1)](https://github.com/user-attachments/assets/d0b9eee7-9cc8-47e8-a61a-566a5e1a5f84)
 
 cat < file2
 ## OUTPUT
