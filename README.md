@@ -46,19 +46,20 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_06c390da(1)](https://github.com/user-attachments/assets/0866b643-b643-40a1-a979-13623853d399)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-05-01 at 10 55 48_06c390da(1)](https://github.com/user-attachments/assets/bf39c8b6-6a4f-45da-9a54-0298e5412989)
+
 comm file1 file2
  ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_06c390da(1)](https://github.com/user-attachments/assets/e6207e05-9c95-4d92-944f-ab95d84604d6)
  
 diff file1 file2
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_06c390da(1)](https://github.com/user-attachments/assets/48daba42-7dc7-4504-9a2b-842dacdb1904)
 
 #Filters
 
@@ -81,18 +82,16 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_b60c31bd(1)](https://github.com/user-attachments/assets/3bd1edc5-5803-4614-ac0a-158fb99037f8)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 12 00 38_1535b7b7(1)](https://github.com/user-attachments/assets/182dd511-b292-41e0-8662-55343db017e3)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 12 00 38_1535b7b7(1)](https://github.com/user-attachments/assets/759e8a2e-0788-416f-9be3-eafb281a1346)
 
 cat < newfile 
 ```
@@ -106,40 +105,31 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/edb82ce1-2225-4181-946d-27d9358eb928)
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/48fb754f-e96d-44d6-912c-d9961fed3355)
 
 grep -v hello newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/f93a51c4-5a5a-4019-aadd-f2c591bc8c8e)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/3e7b9028-d71d-4eb8-b277-72f049f7d1a0)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/97348edf-cf59-4c4b-86e5-ac5d7d819afc)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_376170f2(1)](https://github.com/user-attachments/assets/0ba20ffa-762f-40a1-803f-3350c495002e)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/196ab46c-5a23-4ff9-87af-4d426dfe1ae2)
 
 cat < newfile 
 ```
@@ -162,56 +152,46 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/e80c771e-d616-41cd-baa9-8ade9763ad8a)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/babc576d-127c-4f16-80ea-c9399288a12e)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/0a1a5cc1-19e9-4348-87de-0df6c5fe6356)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/7edae172-d32f-44ff-acd2-edaf32b013ac)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/f5624f04-ea70-430e-8f2e-11f4a9e60891)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/f5624f04-ea70-430e-8f2e-11f4a9e60891)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/b36448f7-4244-4160-8504-eeea0e5bd094)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/4280a67d-204e-42cb-8ec9-e92531e45dfe)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/787db7f2-377c-48ec-a63c-140567218c89)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![WhatsApp Image 2025-05-01 at 10 55 48_e1507ae9(1)](https://github.com/user-attachments/assets/dfc80953-f42f-4a70-be10-328be9bad9f9)
 
 egrep l{2} newfile
 ## OUTPUT
-
-
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
